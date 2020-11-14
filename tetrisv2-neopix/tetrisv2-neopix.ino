@@ -61,7 +61,7 @@ unsigned char lib[10][5][7];
 enum BUTT { BUTT_NONE, BUTT_LEFT, BUTT_DOWN, BUTT_UP, BUTT_RIGHT};
 
 void setup() {
-// Shape library
+// Score Digit Bitmap library
 lib[0][1][0] = 1;
 lib[0][2][0] = 1;
 lib[0][3][0] = 1;
@@ -1106,7 +1106,7 @@ void LEDRefresh()
           }
         }
         else {
-          pixels.setPixelColor(i+j*8, pixels.Color(0, 0, 0)); // Moderately bright green color.
+          pixels.setPixelColor(i+j*8, pixels.Color(0, 0, 0)); // Off.
         }
         pixels.show(); // This sends the updated pixel color to the hardware.
         // delay(delayval); // Delay for a period of time (in milliseconds).        
