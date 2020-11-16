@@ -1,7 +1,7 @@
 # arduino-tetris
 Fork of https://github.com/mtbnunu/arduino-tetris
 Adapted to neopixel LED array and digital buttons.
-
+![photo of tetris neopixel](https://github.com/lukesf/arduino-tetris/blob/master/tetris-neopixel.jpg)
 Author: Jae Yeong Bae
         UBC ECE
 
